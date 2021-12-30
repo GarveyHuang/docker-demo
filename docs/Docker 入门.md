@@ -13,7 +13,7 @@ Docker 官方文档：[docker](https://docs.docker.com/get-started/)
 
 ### Docker 与 VM 的区别
 
-![两者的区别](./images/Docker%20与%20VM%20的区别.png)
+![两者的区别](./images/Docker与VM的区别.png)
 
 - VM 虚拟出**完整**的操作系统，而 Docker 直接运行在**宿主机**的内核上，没有自己的内核和虚拟硬件，所以更加小巧轻便。
 - VM 是**操作系统级别**的虚拟化，Docker 是**内核级别**的虚拟化。
