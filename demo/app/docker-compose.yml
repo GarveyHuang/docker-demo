@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  demo:                         # 指定服务名
+    image: demo-0.0.1           # 指定镜像名称
+    build: ./demo               # 指定 Dockerfile 所在路径
+    ports:
+      - "8761:8080"             # 指定端口映射
+    expose:
+      - 8080                    # 声明容器对外暴露的端口
